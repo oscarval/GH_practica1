@@ -1,6 +1,7 @@
 body {
     font-family: Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 0;
+    margin: 0 30px;
 }
 
 header a:active {
@@ -44,17 +45,24 @@ header a.active {
 
 main {
     display: flex;
+    background-color: #EEEEEE;
+    padding: 0 10px;
 }
 
 main .main-container {
     width: 80%;
 }
 
+main .main-container article {
+    padding: 10px 0;
+}
+
 main .main-container .subtitle {
     font-size: 18px;
     font-weight: bold;
     border-bottom: 2px solid grey;
-    display: initial;
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
 main .main-container .tech {
@@ -91,4 +99,8 @@ main .main-container-widgets .tags ul li {
     border: 1px solid burlywood;
     border-radius: 5px;
     padding: 1px;
+}
+
+main .main-container .contact-form {
+    width: 90%;
 }
