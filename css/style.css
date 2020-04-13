@@ -1,0 +1,94 @@
+body {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0;
+}
+
+header a:active {
+    color: initial;
+}
+
+header a:link {
+    color: initial;
+}
+
+header a:visited {
+    color: initial;
+}
+
+header {
+    background-color: gainsboro;
+    padding: 10px 0;
+    margin-top: 2px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding-left: 0;
+}
+
+header ul li {
+    list-style: none;
+    padding: 0px 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+}
+
+header a.active {
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(236, 233, 233, 0.15);
+}
+
+main {
+    display: flex;
+}
+
+main .main-container {
+    width: 80%;
+}
+
+main .main-container .subtitle {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid grey;
+    display: initial;
+}
+
+main .main-container .tech {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    text-align: center;
+}
+
+main .main-container .tech img {
+    width: 50px;
+}
+
+main .main-container .title {
+    text-align: center;
+}
+
+main .main-container-widgets {
+    width: 20%;
+}
+
+main .main-container-widgets h3 {
+    border-bottom: 2px solid grey;
+}
+
+main .main-container-widgets .tags ul {
+    padding: 0;
+}
+
+main .main-container-widgets .tags ul li {
+    font-size: 12px;
+    display: inline;
+    list-style: none;
+    border: 1px solid burlywood;
+    border-radius: 5px;
+    padding: 1px;
+}

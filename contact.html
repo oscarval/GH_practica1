@@ -1,14 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+
+    <!-- style -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-
+    <header>
+        <nav>
+            <ul>
+                <li>Practica 1</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html" class="active">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main-container">
+            <h2 class="title">¿Quieres contactarme?</h2>
+            <article>
+                <div class="subtitle">Indica tus datos y te contactaremos</div>
+                <form>
+                    <fieldset>
+                        <legend>Datos de contacto:</legend>
+                        <label for="fullname">Nombre:</label><br>
+                        <input type="text" id="fullname" name="fullname"><br><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" name="email"><br><br>
+                        <label for="comments">Comentarios</label><br>
+                        <textarea name="comments" id="comments"></textarea><br><br>
+                        <input type="submit" value="Submit">
+                    </fieldset>
+                </form>
+            </article>
+            <article>
+                <div class="subtitle">Datos de contacto</div>
+                <address>
+                    Por correo electrónico: <a
+                        href="mailto:entulinea.alexis@gmail.com">entulinea.alexis@gmail.com</a><br>
+                    Por teléfono: +34 678 678 678<br>
+                    Alexis Valdez<br>
+                    Madrid 28200 Madrid.<br>
+                    España
+                </address>
+            </article>
+        </div>
+        <div class="main-container-widgets">
+            <div>
+                <h3>Noticias</h3>
+            </div>
+            <div>
+                <h3>Blog</h3>
+            </div>
+            <div>
+                <h3>Tags</h3>
+                <div class="tags">
+                    <ul>
+                        <li>Javascript</li>
+                        <li>Github</li>
+                        <li>GeeksHubs</li>
+                        <li>Progamación</li>
+                        <li>Angular</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
